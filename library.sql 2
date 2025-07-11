@@ -1,0 +1,21 @@
+CREATE TABLE loginTable(
+id INT AUTO_INCREMENT primary key,
+username varchar(150) not null,
+pass varchar(150) not null
+);
+
+insert into loginTable (username,pass) values ('nick', 'pass');
+
+CREATE TABLE NewBook(
+bid INT AUTO_INCREMENT primary key,
+bName varchar(250) not null,
+bAuthor varchar(250) not null,
+bPubl varchar(250) not null,
+bPDate varchar(250) not null,
+bPrice bigint not null,
+bQuan bigint not null
+ );
+ 
+ select * from NewBook;
+ 
+ 
