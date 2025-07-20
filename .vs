@@ -1,0 +1,4 @@
+Library
+ProjectEvaluation
+slnx.sqlite
+VSWorkspareState.json
